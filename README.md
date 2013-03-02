@@ -3,7 +3,8 @@ a jquery accordion for image grids
 
 | contents |
 | ------------- |
-| [What is](#what-is) | 
+| [What is](#what-is) |
+| [Example](http://tloureiro.github.com/gridacord/example.html)|
 | [Requirements](#requirements) |
 | [How to use](#how-to-use) |
 | [Parameters](#parameters) |
