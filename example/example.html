@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>Simple Example - Gridacord</title>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+	<script src="../jquery.imagesloaded.min.js"></script>
+	<script src="../gridacord.min.js"></script>
+	
+	<script type="text/javascript">
+	
+		$(document).ready(function(){
+			$("#mygrid").gridacord();
+		});
+	
+	</script>
+	
+	<style></style>
+</head>
+
+<body>
+	
+<div id="mygrid">
+	<div class="item"><img src="1.jpg"/></div>
+	<div class="item"><img src="2.jpg"/></div>
+	<div class="item"><img src="3.jpg"/></div>
+	<div class="item"><img src="4.jpg"/></div>
+	<div class="item" data-spot-x="40" data-spot-y="20"><img src="5.jpg"/></div>
+	<div class="item" data-exp-width="640" data-exp-height="480"><img src="6.jpg"/></div>
+	<div class="item"><img src="7.jpg"/></div>
+	<div class="item"><img src="8.jpg"/></div>
+	<div class="item"><img src="9.jpg"/></div>
+</div>
+	
+</body>
+
+</html>
